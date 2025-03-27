@@ -19,41 +19,38 @@ Data recovery from unallocated space, using forensic tools(Autospy) to extract a
 - Launch **Autopsy** and **Run as a administrator**  
 - Click **Create New Case**.  
 
-![](./images/a1.png)
+![image](https://github.com/user-attachments/assets/e9f6588b-7aac-44c2-8816-9ef2e95f93c7)
 
 - Enter a **Case Name** (e.g., `Autopsy1`).  
 - Choose a **Case Folder** location.  
 - Click **Next** → Click **Finish**.  
 
-![](./images/a2.png)
+![image](https://github.com/user-attachments/assets/e35ed940-df40-49bb-b746-afae0016ecf9)
 
 ### **Add the Virtual Disk as an Evidence Source**  
 - Click **Add Data Source**  → **Select Host**
 
-![](./images/a3.png)
+![image](https://github.com/user-attachments/assets/60d0fa98-996f-4ab9-be9c-94c8abe657e0)
+
 
 - Select **Local Disk** → **next** 
 
-![](./images/a4.png)
+![image](https://github.com/user-attachments/assets/f88471d4-d38c-4833-b3ee-f24d193b7c49)
 
 - Select Disk → **Choose the VHD drive (`Drive1`)**
 
-![](./images/a5.png)
+![image](https://github.com/user-attachments/assets/f19e85f7-32b7-499a-963c-a3c3aa1ee083)
 
 - Click **Next** → Keep default settings → Click **Finish**.  
 - Wait for Autopsy to process the disk.  
 
 ### **Recover Deleted Files**  
 - Go to **File Views** (left panel).  
-
-![](./images/a6.png)
-
-![](./images/a7.png)
+![image](https://github.com/user-attachments/assets/f72ae3af-73b8-4514-8022-d181629815d6)
 
 - Click **Deleted Files** → Find your deleted images.  
 - Right-click an image → Click **Extract File**.  
-
-![](./images/a8.png)
+![image](https://github.com/user-attachments/assets/c7f5a958-222c-4f87-b341-b25e6d28656c)
 
 - Select a folder to see the recovered files (e.g., `C:\forensic`).  
 - Image is recovered successfully.
@@ -61,13 +58,13 @@ Data recovery from unallocated space, using forensic tools(Autospy) to extract a
 
 ## Output :
 ### Folder before deleting the files
-![](./images/f1.png)
+![image](https://github.com/user-attachments/assets/d43c3ed6-533c-44be-95dd-f48ecbc40be2)
 
 ### Folder after deleting the files
-![](./images/a9.png)
+![image](https://github.com/user-attachments/assets/6b983bc7-3e78-4d29-97df-e5b172c80fc8)
 
 ### Folder after extracting the deleted images using autopsy
-![](./images/a10.png)
+![image](https://github.com/user-attachments/assets/e3229720-002a-49c6-bc27-303185f4a02e)
 
 ## Result:
 Successfully extracted the deleted files from unallocated space using the Autospy tool.
